@@ -1,0 +1,190 @@
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+span{
+    color: rgba(241, 170, 15, 0.856);
+}
+.intro{
+    text-align: center;
+}
+.intro p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* EVENTO 01 */
+.evento01{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento01 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento01 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    right: 360px;
+    width: 360px;
+}
+
+/* EVENTO 02 */
+
+.evento02{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento02 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento02 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO03 */
+
+.evento03{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento03 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento03 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO04 */
+
+.evento04{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento04 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento04 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO05 */
+
+.evento05{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento05 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento05 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+/* EVENTO06 */
+
+.evento06{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.evento06 .legenda-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    text-align: center;
+
+}
+.evento06 .legenda-imagem img{
+    margin-left: 80px;
+    float: left;
+    margin-right: 10px;
+    width: 360px;
+    right: 360px;
+}
+
+@media screen and (max-width: 1000px){
+    /* CLASSES GERAIS */
+    .intro h1{
+     font-size: 30px;
+    }
+    .intro{
+      flex-direction: column;
+      gap: 40px;
+      padding: 20px 8%;
+    }
+    p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .legenda-imagem{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .legenda-imagem p{
+        justify-content: center;
+    }
+    
+}

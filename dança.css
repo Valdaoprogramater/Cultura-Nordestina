@@ -1,0 +1,112 @@
+*{
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: inline-block; /* importante */
+    max-width: 1200px;
+  
+}
+body{
+    background-color: black;
+    height: 100vh;
+
+}
+span{
+   color: rgba(241, 170, 15, 0.856);
+}
+
+.intro{
+    text-align: center;
+    
+
+}
+
+.intro p{
+   margin-top: 35px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 18px;
+   word-spacing: 2px;
+
+}
+.video-legenda{
+    text-align: center;
+ }
+ 
+/* FORRÓ */
+
+.forro p{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    text-align: justify;
+
+}
+
+.forro h2{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+/* FREVO */
+.frevo{
+    margin-top: 20px;
+}
+
+.frevo p{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    text-align: justify;
+
+}
+
+.frevo h2{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+/* MARACATU */
+
+.maracatu{
+    margin-top: 20px;
+}
+
+.maracatu p{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    text-align: justify;
+
+}
+
+.maracatu h2{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 1000px){
+    /* CLASSES GERAIS */
+    .intro h1{
+     font-size: 30px;
+    }
+    .intro{
+      flex-direction: column;
+      gap: 40px;
+      padding: 20px 8%;
+    }
+    p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .legenda-imagem{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .legenda-imagem p{
+        justify-content: center;
+    }
+    
+}
